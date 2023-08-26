@@ -16,7 +16,7 @@ P = int(input('Введите произведение этих чисел: '))
 X = int((S-(S**2-4*P)**0.5)/2.0)
 Y = int(S-X)
 
-if X<0 or X>1000 or Y<0 or Y>1000: 
+if X<=0 or X>1000 or Y<=0 or Y>1000: 
     print('введите другие числа')
 elif X * Y == P:
     print(X, Y)
