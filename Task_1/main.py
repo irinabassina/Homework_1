@@ -12,7 +12,6 @@ count2 = 0
 
 for i in range(n):
     number = int(input("сторона монеты: "))
-    i+=1
     if number == 0:
              count1 += 1
     if number == 1:
